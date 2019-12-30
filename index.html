@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>H&M</title>
+  <!-- 웹 아이콘 -->
+  <link rel="shortcut icon" href="images/logo.png">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
+  <!-- bxslider CSS -->
+  <link rel="stylesheet" href="js/bxslider/jquery.bxslider.min.css">
+
+  <!-- 공통 CSS -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- mobile CSS -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+  <!-- PC CSS -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
+  <!-- 제이쿼리 -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bxslider -->
+  <script src="js/bxslider/jquery.bxslider.min.js"></script>
+  <!-- 이미지 로드 채크 -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <header id="main_header">
+    <div class="container">
+      <h1><a href="#"><img src="./images/logo.png" alt=""></a></h1>
+      <div class="nav_group">
+        <nav id="main_gnb">
+          <ul>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">H&M HOME</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </nav>
+        <nav id="util">
+          <ul>
+            <li><a href="">search</a></li>
+            <li><a href="#">log in</a></li>
+            <li>
+              <a href="#">
+                <span>cart</span>
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <button id="toggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <section id="title">
+    <div class="container">
+      <div class="title">
+        <h2>The Brittany<br>Xavier edit</h2>
+        <p>From the slopes to the streets</p>
+        <a href="#" class="cta">지금 쇼핑하기</a>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <!-- 브랜드 소개 -->
+  <section id="brand">
+    <div class="container">
+      <h2>About H&M</h2>
+      <p>H & M은 항상 최신 스타일과 영감을 제공하는 패션 브랜드입니다. 고객은 패션 제품 및 독특한 디자이너 협업에서부터 저렴한 옷장 필수품, 완벽한 액세서리 및 동기 부여 운동복에 이르기까지 모든 것을
+        찾을 수 있습니다. 모든 계절, 모든 스타일, 모두 환영합니다! 그러나 H & M은 단순한 패션 그 이상입니다. 와가격H & M은 DNA에 깊이 뿌리 박고있는 품질, 지속 가능성, 모든 사람이 자신의
+        개인 스타일을 탐구 할 수있을뿐만 아니라보다 지속 가능한 패션 미래를 창출 할 수있는 기회를 제공합니다.</p>
+    </div>
+  </section>
+
+  <!-- 신제품 -->
+  <section id="new_product">
+    <div class="container">
+      <h2>New Product</h2>
+      <ul class="product_list">
+        <li>
+          <a href="#">
+            <img src="./images/product1.jpg" onmouseover="this.src='./images/product1-1.jpg';"
+              onmouseout="this.src='./images/product1.jpg';" alt="0783244005">
+            <span class="title">Jacket</span>
+            <ins class="price">&#8361;49,000</ins>
+            <del class="origin_price">&#8361;59,000</del>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/product2.jpg" onmouseover="this.src='./images/product2-1.jpg';"
+              onmouseout="this.src='./images/product2.jpg';" alt="0819139001">
+            <span class="title">Cable knit dress</span>
+            <ins class="price">&#8361;29,900</ins>
+            <del class="origin_price">49,000</del>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/product3.jpg" onmouseover="this.src='./images/product3-1.jpg';"
+              onmouseout="this.src='./images/product3.jpg';" alt="0819139001">
+            <span class="title">Calf length sequined skirt</span>
+            <ins class="price">&#8361;35,900</ins>
+            <del class="origin_price">&#8361;59,900</del>
+          </a>
+        </li>
+      </ul>
+    </div><!-- end container -->
+  </section>
+
+  <!-- 이벤트 섹션 -->
+  <section id="event">
+    <div class="title">
+      <h2>~50% 할인 EVENT!</h2>
+      <p>2019-12-18부터 2019-12-30 5PM까지 온라인 스토어 일부 품목에 한하며 정상 판매가를 기준으로 합니다. 매장에서 12월 31일 까지 매장 판매 가격은 온라인과 차이가 있을 수 있습니다.</p>
+      <a href="#" class="cta">더 보기</a>
+    </div>
+  </section>
+
+  <!-- new 섹션 -->
+  <section id="news">
+    <div class="container">
+      <article>
+        <h2>Glitterally ready <br>for the holidays</h2>
+        <!-- 600 x 380 -->
+      </article>
+      <article>
+        <h2>Winter must-haves</h2>
+      </article>
+    </div><!-- end container-->
+  </section>
+
+  <!-- 인스타그램 -->
+  <section id="sns">
+    <a href="https://www.instagram.com/hm/?hl=ko">
+      <h2><img src="images/insta.png" alt=""></h2>
+      <div class="slider">
+        <img src="images/in-1.jpg" alt="1">
+        <img src="images/in-2.jpg" alt="2">
+        <img src="images/in-3.jpg" alt="3">
+        <img src="images/in-4.jpg" alt="4">
+        <img src="images/in-5.jpg" alt="5">
+        <img src="images/in-6.jpg" alt="6">
+        <img src="images/in-7.jpg" alt="7">
+      </div>
+    </a>
+  </section>
+  
+  <footer id="main_footer">
+    <img id="f_logo" src="./images/f_logo.png" alt="footer logo">
+    <p class="info">(주)에이치앤엠코리아 대표 KIM MYUNG HEE | 서울 강남구 테헤란로 152 강남파이낸스센터 31층<br>통신판매업신고번호 2011-서울강남-03461 | 등록번호 220-88-09068 <strong>사업자정보확인</strong><br>개인정보보호책임자 ANDY HOUGHTON | 정보보호최고책임자 이희준 <br>고객센터 전화문의 080-088-0128 <br>FAX 02-7644-5880 | E-mail service@hm.co.kr | 호스팅서비스사업자 브리즈</p>
+    <ul class="sns_list">
+      <li class="item">
+        <a href="https://www.facebook.com/hmtheus">
+          <img src="images/f.png" alt=""></a></li>
+      <li class="item">
+        <a href="https://twitter.com/hmusa">
+          <img src="images/t.png" alt=""></a>
+      </li>
+      <li class="item">
+        <a href="https://www.instagram.com/hm/">
+          <img src="images/i.png" alt=""></a>
+      </li>
+      <li class="item">
+        <a href="http://www.youtube.com/user/hennesandmauritz">
+          <img src="images/y.png" alt=""></a>
+      </li>
+      <li class="item">
+        <a href="https://www.pinterest.com/hm/">
+          <img src="images/p.png" alt=""></a>
+      </li>
+    </ul>
+    <p class="copyright">&copy;2019 HM. Inc. All Right Reserveds</p>
+    <p>H&M's business concept is to offer fashion and quality at the best price. H&M has since it was founded in 1947 <br>
+      grown into one of the world's leading fashion companies. The content of...</p>
+  </footer>
+
+
+</body>
+
+</html>
