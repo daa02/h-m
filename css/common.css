@@ -172,8 +172,9 @@ section {
   font-weight: bold;
 }
 #main_footer .info{
-  min-width: 578px;
+  /* min-width: 578px; */
   font-weight: normal;
+  font-size: small;
 }
 #main_footer .sns_list{
   margin: 30px;
